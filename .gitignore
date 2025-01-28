@@ -1,0 +1,19 @@
+# Rust
+# Compiled target directory
+/target
+
+# Dependency lock file
+Cargo.lock
+
+# IDE-specific files
+.idea/
+*.iml
+
+# Visual Studio Code
+.vscode/
+
+# macOS files
+.DS_Store
+
+# ignore personal env
+.env
