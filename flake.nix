@@ -14,12 +14,10 @@
             x86_64-linux = {
                 default = pkgs.mkShell {
                     packages = with pkgs; [
-                        git  # Version control
                         rustc cargo rust-analyzer clippy rustfmt rustup # Rust packages
-                        direnv nix-direnv # Nix autorun configuration files
                     ];
 
-                    shellHook = ''eval "$(direnv hook bash)" && echo "Ono's nix development ambience done"'';
+                    shellHook = ''echo "Ono's nix development ambience done"'';
                 };
             };
         };
