@@ -11,3 +11,6 @@ reqwest = { version = "0.12.12", features = ["json"] }
 serde_json = "1.0"
 tokio = { version = "1", features = ["full"] }
 dotenv = "0.15"
+
+[package.metadata.scripts]
+lint = ["cargo clippy -- -D warnings --config-path clippy.toml"]
