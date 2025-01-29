@@ -17,3 +17,34 @@ Cargo.lock
 
 # ignore personal env
 .env
+
+# direnv
+.direnv/
+
+# Nix
+/result
+/nix/
+*.drv
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+*.bak
+
+# Backup files
+*.bak
+*.old
+
+# System files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Other IDEs and editors
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
